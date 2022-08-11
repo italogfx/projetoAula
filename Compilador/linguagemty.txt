@@ -1,0 +1,25 @@
+codigo[
+
+inicio[
+
+numero nota1;
+letras nota2;
+numero media;
+letras nome;
+
+caso(nota1<nota2)[
+
+]casonao[
+
+]fimcaso
+
+mostra(nota2);
+leia(nota1);
+
+denovo()[
+
+]fimdenovo
+
+]fiminicio 
+
+]fimcodigo
