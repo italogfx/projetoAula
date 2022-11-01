@@ -1,0 +1,20 @@
+from node import Node
+
+class LinkedList(object):
+
+    def __init__(self):
+        self.head = None
+        self._size = 0
+
+    def append(self, newItem):
+
+        if self.head:
+
+            probe = self.head
+            while (probe.next):
+                probe = probe.next
+            probe.next = Node(newItem)
+        else:
+            self.head = Node(newItem)
+        self._size += 1
+    

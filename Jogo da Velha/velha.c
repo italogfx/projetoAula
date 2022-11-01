@@ -151,7 +151,7 @@ int execJogo(char respostaJ1, char respostaJ2){
         }
         if(jogadas >= 5){
 
-        	resultado = testaVencedor(respostaJ1, respostaJ2);
+        	resultado = testaVencedor(respostaJ1, respostaJ2)
         	if(resultado != 0){
         		return resultado;
         	}else if(jogadas == 9 && resultado == 0){

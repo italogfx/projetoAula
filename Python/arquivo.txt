@@ -1,0 +1,5 @@
+italo 35 40
+joao 20 50
+yandra 50 30
+jp 40 40
+aureo 10 80
